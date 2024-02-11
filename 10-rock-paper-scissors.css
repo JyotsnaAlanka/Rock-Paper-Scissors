@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(135deg,#720455,#3C0753);
+    color:white;
+    font-family:Arial;
+    margin-top: 200px;
+    margin-left:500px;
+    
+}
+
+.title{
+    font-size:30px;
+    font-weight: bold;
+}
+
+/* styling the images  */
+.move-icon{
+    height:50px;
+}
+
+.move-button{
+    background-color: transparent;
+    /* border contains  border width ,border style, color */
+    border:3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right:15px;
+    cursor: pointer;
+}
+
+.result{
+    font-size:25px;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.score{
+    margin-top:50px;
+
+}
+
+.reset-score-button,
+.autoplay-button{
+    border:none;
+    font-size:15px;
+    padding:8px 15px;
+    cursor:pointer;
+}
+
